@@ -7,11 +7,11 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
 # Add your Telegram bot token here
-TELEGRAM_API_TOKEN = '7862625044:AAFnjnyux7oH30zCbdW39-2Z7kG2PmW9Kgg'  # <-- Replace with your actual bot token
+TELEGRAM_API_TOKEN = ''  # <-- Replace with your actual bot token
 bot = telebot.TeleBot(TELEGRAM_API_TOKEN)
 
 # Define the chat ID where the bot will send messages (can be obtained from @userinfobot or manually)
-CHAT_ID = '5734256624'  # <-- Replace with your actual chat ID
+CHAT_ID = ''  # <-- Replace with your actual chat ID
 
 # Function to send message to Telegram
 def send_telegram_message(message):
